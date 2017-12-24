@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import { browserHistory } from 'react-router';
 
-
-export default class Home extends Component {
+export default class About extends Component {
   componentDidMount() {
-    browserHistory.push('/');
+    browserHistory.push('/about');
   }
   render() {
     return (
-      <div id="home">
-        This is the home page.
+      <div id="about">
+        This is the about page.
       </div>
     );
   }
