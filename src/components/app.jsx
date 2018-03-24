@@ -1,9 +1,12 @@
-import React, { Component } from "react";
-export default class App extends Component {
+import React from "react";
+import Sidebar from './views/sidebar.jsx';
+
+
+export default class App extends React.Component {
   render() {
     return (
       <div>
-        {this.props.children}
+        <Sidebar />
       </div>
     );
   }
